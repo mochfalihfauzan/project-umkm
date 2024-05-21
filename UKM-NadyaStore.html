@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>E-shop | NadyaStore</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/dist/css/lightbox.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+      @media (max-width: 768px) {
+        .card {
+          margin: 10px 5px;
+        }
+        .navbar-brand h2 {
+          font-size: 18px;
+        }
+        .nav-link {
+          font-size: 14px;
+        }
+        .display-5,
+        .display-6 {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <section id="navbar">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#tentang-kami">
+            <h2 class="warna fw-bold">NadyaStore</h2>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#jumbotron"
+                  >Beranda</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tentang-kami">Tentang Kami</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#keunggulan">Keunggulan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#produk">Produk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#konsultasi">Konsultasi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#kontak">Kontak</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section id="jumbotron" class="bg-image">
+      <div class="container-fluid py-5">
+        <div
+          class="row d-flex text-center align-items-center"
+          style="height: 300px"
+        >
+          <div class="col-md-12">
+            <h1 class="display-5 text-white fw-bold">
+              <span class="auto-input"></span>
+            </h1>
+            <p class="fs-5">
+              Kami Menyediakan berbagai produk alat tulis, sepatu, sendal & dll
+            </p>
+
+            <button id="bottone1">
+              <a href="#produk" class="text-white"
+                ><strong>Lihat Produk</strong></a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#F58549"
+          fill-opacity="1"
+          d="M0,256L40,256C80,256,160,256,240,218.7C320,181,400,107,480,90.7C560,75,640,117,720,128C800,139,880,117,960,112C1040,107,1120,117,1200,133.3C1280,149,1360,171,1400,181.3L1440,192L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
+        ></path>
+      </svg>
+    </section>
+
+    <section id="tentang-kami">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 pt-4">
+            <h2
+              class="display-6 pt-0 pt-lg-5 pb-0 pb-lg-5 warna-judul fw-bold text-center"
+            >
+              Tentang Kami
+            </h2>
+          </div>
+
+          <div
+            class="col-12 col-lg-6 pt-5"
+            data-aos="fade-up-right"
+            data-aos-duration="1000"
+          >
+            <img
+              src="assets/img/toko.jpg"
+              class="img-fluid rounded-5 offset-md-2 offset-lg-0 img-about"
+              alt="gambar-about"
+            />
+          </div>
+
+          <div
+            class="col-12 pt-5 col-lg-6"
+            data-aos="fade-up-left"
+            data-aos-duration="1000"
+          >
+            <h3 class="warna display-6 fw-bold text-center pb-1">NadyaStore</h3>
+            <p>
+              Nayda Store adalah toko online yang menawarkan berbagai produk
+              alat tulis dan sandal berkualitas. Kami didirikan dengan tujuan
+              memberikan kemudahan bagi Anda dalam memenuhi kebutuhan
+              sehari-hari terkait kebutuhan alat tulis dan alas kaki.
+            </p>
+            <p>
+              Dengan berfokus pada produk-produk pilihan yang terjamin
+              kualitasnya, Nayda Store berkomitmen untuk memberikan pengalaman
+              berbelanja yang menyenangkan dan memuaskan bagi setiap pelanggan
+              kami. Kami menjunjung tinggi integritas dan kepuasan pelanggan
+              sebagai prioritas utama.
+            </p>
+            <p>
+              Di NadyaStore, kami tidak hanya menjual barang-barang, tetapi juga
+              mempromosikan pengalaman belanja yang memuaskan. Dengan berbagai
+              pilihan produk, mulai dari alat tulis yang inovatif hingga koleksi
+              terbaru sepatu dan sandal, kami menghadirkan inspirasi dan
+              kreativitas untuk setiap langkah Anda.
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#F58549"
+          fill-opacity="1"
+          d="M0,224L40,197.3C80,171,160,117,240,117.3C320,117,400,171,480,176C560,181,640,139,720,128C800,117,880,139,960,176C1040,213,1120,267,1200,272C1280,277,1360,235,1400,213.3L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <section id="keunggulan">
+      <div class="container pt-5">
+        <div class="row text-center">
+          <div class="col-12">
+            <h2
+              class="display-6 pt-5 pb-5 d-none d-lg-block garis-two warna-judul fw-bold"
+            >
+              Mengapa harus belanja di kami?
+            </h2>
+            <h2
+              class="display-6 pt-5 pb-5 d-block d-lg-none warna-judul fw-bold"
+            >
+              Mengapa harus belanja di kami?
+            </h2>
+          </div>
+
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-3"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <span class="fa-stack fa-2x mb-3 bg-blue">
+              <i class="fas fa-circle fa-stack-2x warna"></i>
+              <i class="fa-solid fa-calendar-days fa-stack-1x text-white"></i>
+            </span>
+            <h3 class="warna">Barang Berkualitas</h3>
+            <p>
+              Dibuat dengan standar tertinggi dalam industri, setiap produk kami
+              menawarkan keunggulan dalam presisi dan performa
+            </p>
+          </div>
+
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-3"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <span class="fa-stack fa-2x mb-3 warna">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fa-solid fa-sack-dollar fa-stack-1x text-white"></i>
+            </span>
+
+            <h3 class="warna">Murah Meriah😍</h3>
+            <p>
+              Kami menawarkan produk berkualitas tinggi dengan harga yang
+              terjangkau bagi semua kalangan
+            </p>
+          </div>
+
+          <div
+            class="col-12 col-sm-6 col-lg-4 mx-sm-auto mx-md-auto mb-3"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <span class="fa-stack fa-2x mb-3">
+              <i class="fas fa-circle fa-stack-2x warna"></i>
+              <i class="fa-solid fa-face-laugh fa-stack-1x text-white"></i>
+            </span>
+
+            <h3 class="warna">Lengkap 100%</h3>
+            <p>
+              Produk kami hadir sebagai solusi lengkap yang memenuhi dan
+              menawarkan pilihan yang komprehensif untuk memenuhi setiap
+              kebutuhan Anda
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------produk start-------------- -->
+    <section id="produk">
+      <div class="container-fluid py-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 text-center">
+              <h2
+                class="display-6 pt-5 pb-5 warna-judul d-none d-lg-block garis-three fw-bold"
+              >
+                Produk kami
+              </h2>
+              <h2
+                class="display-6 pt-5 pb-5 warna-judul d-block d-lg-none fw-bold"
+              >
+                Produk kami
+              </h2>
+            </div>
+
+            <!-- button produk -->
+            <div class="col-12 col-sm-5 col-md-4 col-lg-2">
+              <!--id di button utk js animasi ketika di klick-->
+              <button
+                id="semuaAlatTulisBtn"
+                onclick="showAlatTulis()"
+                class="btn btn-outline-warning fw-semibold mb-3 aktif w-100"
+              >
+                Alat Tulis
+              </button>
+            </div>
+
+            <div class="col-12 col-sm-5 col-md-4 col-lg-2">
+              <!--id di button utk js animasi ketika di klick-->
+              <button
+                id="semuaSendalBtn"
+                onclick="showSendal()"
+                class="btn btn-outline-warning mb-3 fw-semibold w-100"
+              >
+                Sendal
+              </button>
+            </div>
+
+            <div class="col-12 col-sm-5 col-md-4 col-lg-2">
+              <!--id di button utk js animasi ketika di klick-->
+              <button
+                id="bonusPromoBtn"
+                onclick="showTambahan()"
+                class="btn btn-outline-warning mb-3 fw-semibold w-100 text-nowrap"
+              >
+                Lainnya
+              </button>
+            </div>
+            <!-- end button produk -->
+          </div>
+
+          <!-- alat tulis -->
+          <div id="semuaAlatTulisView">
+            <div class="row mt-5 text-center">
+              <div
+                class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4"
+                data-aos="zoom-in"
+              >
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/pulpen-1.jpg"
+                    data-lightbox="Pulpen"
+                    data-title="Pulpen-joyko"
+                  >
+                    <img
+                      src="assets/img/pulpen-1.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">Pulpen Joyko</h5>
+                    <p class="card-text">Pulpen Joyko JK Gel Pen Ballpoint</p>
+                  </div>
+
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 3.000</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4"
+                data-aos="zoom-in"
+              >
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/pulpen-2.jpg"
+                    data-lightbox="pulpen-castello"
+                    data-title="pulpen-castello"
+                  >
+                    <img
+                      src="assets/img/pulpen-2.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+
+                  <div class="card-body warna">
+                    <h5 class="card-title">Pulpen castelo</h5>
+                    <p class="card-text">Pulpen Standard Castello - Hitam</p>
+                  </div>
+
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 2.500</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4"
+                data-aos="zoom-in"
+              >
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/pulpen-3.jpg"
+                    data-lightbox="pulpen-astronot"
+                    data-title="pulpen-astronot"
+                  >
+                    <img
+                      src="assets/img/pulpen-3.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">pulpen astro</h5>
+                    <p class="card-text">
+                      Pulpen Cetek Erasable Motif Astronot
+                    </p>
+                  </div>
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 3.000</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4"
+                data-aos="zoom-in"
+              >
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/pensil-1.jpg"
+                    data-lightbox="pensil-senco"
+                    data-title="pensil-senco"
+                  >
+                    <img
+                      src="assets/img/pensil-1.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">Pensil Senco</h5>
+                    <p class="card-text">
+                      Pensil 2B SENCO Harga per 1pcs Pencil
+                    </p>
+                  </div>
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 1.500</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4"
+                data-aos="zoom-in"
+              >
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/spidol.jpg"
+                    data-lightbox="spidol-small"
+                    data-title="spidol-small"
+                  >
+                    <img
+                      src="assets/img/spidol.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">Spidol Small</h5>
+                    <p class="card-text">
+                      Spidol Snowman Marker Kecil PW 1A Merah
+                    </p>
+                  </div>
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 2.000</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4"
+                data-aos="zoom-in"
+              >
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/rautan.jpg"
+                    data-lightbox="rautan"
+                    data-title="rautan"
+                  >
+                    <img
+                      src="assets/img/rautan.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">Rautan</h5>
+                    <p class="card-text">
+                      Bazic Small Pencil Sharpener - Serutan
+                    </p>
+                  </div>
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 1.000</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4"
+                data-aos="zoom-in"
+              >
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/penghapus.jpg"
+                    data-lightbox="penghapus"
+                    data-title="penghapus"
+                  >
+                    <img
+                      src="assets/img/penghapus.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">Penghapus</h5>
+                    <p class="card-text">
+                      Joyko Eraser Penghapus Joyko Kecil Hitam
+                    </p>
+                  </div>
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 1.000</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4"
+                data-aos="zoom-in"
+              >
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/pensil-warna.jpg"
+                    data-lightbox="pensil-warna"
+                    data-title="pensil-warna"
+                  >
+                    <img
+                      src="assets/img/pensil-warna.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">Pensil Warna</h5>
+                    <p class="card-text">
+                      Pensil Warna Panjang Joyko - 12 Warna CP 103
+                    </p>
+                  </div>
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 15.000</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4"
+                data-aos="zoom-in"
+              >
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/krayon.jpg"
+                    data-lightbox="krayon"
+                    data-title="krayon"
+                  >
+                    <img
+                      src="assets/img/krayon.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">Krayon</h5>
+                    <p class="card-text">
+                      Joyko Oil Pastel Krayon Minyak isi 12 Warna
+                    </p>
+                  </div>
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 15.000</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4"
+                data-aos="zoom-in"
+              >
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/buku.jpg"
+                    data-lightbox="buku"
+                    data-title="buku"
+                  >
+                    <img
+                      src="assets/img/buku.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">Buku</h5>
+                    <p class="card-text">
+                      Buku Tulis Nobel 36 lembar Maxi Campus B5
+                    </p>
+                  </div>
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 4.000</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4"
+                data-aos="zoom-in"
+              >
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/hvs.jpg"
+                    data-lightbox="kertas-hvs"
+                    data-title="kertas-hvs"
+                  >
+                    <img
+                      src="assets/img/hvs.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">Kertas HVS</h5>
+                    <p class="card-text">
+                      Kertas HVS 75gr A4 F4 Paper One Rim - A4
+                    </p>
+                  </div>
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 1.000</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4"
+                data-aos="zoom-in"
+              >
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/folio.jpg"
+                    data-lightbox="kertas-folio"
+                    data-title="kertas-folio"
+                  >
+                    <img
+                      src="assets/img/folio.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">Kertas Folio</h5>
+                    <p class="card-text">
+                      Kertas Folio Bergaris F4 / Double Bergaris
+                    </p>
+                  </div>
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 1.000</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end alat tulis -->
+
+          <!-- dan sendal -->
+          <div id="promoDiskon">
+            <div class="row justify-content-center text-center mt-5">
+              <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/sendal-1.jpg"
+                    data-lightbox="sendal-hilos"
+                    data-title="sendal-hilos"
+                  >
+                    <img
+                      src="assets/img/sendal-1.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">Sendal Hilos</h5>
+                    <p class="card-text">Sandal Wanita Selop Sendal Hilos</p>
+                  </div>
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 25.000</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/sendal-2.jpg"
+                    data-lightbox="ARF-Thomas"
+                    data-title="ARF-Thomas"
+                  >
+                    <img
+                      src="assets/img/sendal-2.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">ARF Thomas</h5>
+                    <p class="card-text">FullBlack Sandal Casual Pria Sandal</p>
+                  </div>
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 20.000</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/sendal-3.jpg"
+                    data-lightbox="sendal-dulux"
+                    data-title="sendal-dulux"
+                  >
+                    <img
+                      src="assets/img/sendal-3.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">Sendal Dulux</h5>
+                    <p class="card-text">
+                      Sepatu Sendal Pria Casual Karet Dulux.
+                    </p>
+                  </div>
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 15.000</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/sendal-5.jpg"
+                    data-lightbox="dulux-anak"
+                    data-title="dulux-anak"
+                  >
+                    <img
+                      src="assets/img/sendal-5.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">Dulux Anak</h5>
+                    <p class="card-text">Grosir Sandal Sendal anak Dulux</p>
+                  </div>
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 13.000</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/sendal-6.jpg"
+                    data-lightbox="dulux-jumbo"
+                    data-title="dulux-jumbo"
+                  >
+                    <img
+                      src="assets/img/sendal-6.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">Dulux Jumbo</h5>
+                    <p class="card-text">Sendal Jepit Gesper Karet Anti Air</p>
+                  </div>
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 13.000</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/sendal-7.jpg"
+                    data-lightbox="New-Era"
+                    data-title="New-Era"
+                  >
+                    <img
+                      src="assets/img/sendal-7.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">New Era</h5>
+                    <p class="card-text">
+                      Sendal selop pria New era motif silang
+                    </p>
+                  </div>
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 13.000</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/sendal-8.jpg"
+                    data-lightbox="sendal-balance"
+                    data-title="sendal-balance"
+                  >
+                    <img
+                      src="assets/img/sendal-8.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">Sendal Balance</h5>
+                    <p class="card-text">Balance Sandal Jepit Tebal Wanita</p>
+                  </div>
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 13.000</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/sendal-9.jpg"
+                    data-lightbox="new-era"
+                    data-title="new-era"
+                  >
+                    <img
+                      src="assets/img/sendal-9.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">New Era</h5>
+                    <p class="card-text">
+                      New Era sandal jepit karet pria orginal
+                    </p>
+                  </div>
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 13.000</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- end  dan sendal -->
+
+          <!-- barang lainnya -->
+          <div id="promoBonus">
+            <div class="row justify-content-center mt-5 text-center">
+              <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/handuk-1.jpg"
+                    data-lightbox="handuk-terry"
+                    data-title="handuk-terry"
+                  >
+                    <img
+                      src="assets/img/handuk-1.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">Handuk Terry</h5>
+                    <p class="card-text">Handuk Mandi Terry Palmer Morning</p>
+                  </div>
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 13.000</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/handuk-2.jpg"
+                    data-lightbox="handuk-bathtowel"
+                    data-title="handuk-bathtowel"
+                  >
+                    <img
+                      src="assets/img/handuk-2.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">bathtowel</h5>
+                    <p class="card-text">Handuk mandi serap air agak tipis</p>
+                  </div>
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 13.000</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/handuk-3.jpg"
+                    data-lightbox="handuk-microfiber"
+                    data-title="handuk-microfiber"
+                  >
+                    <img
+                      src="assets/img/handuk-3.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">Microfiber</h5>
+                    <p class="card-text">Handuk Mandi Microfiber Bulu Emboss</p>
+                  </div>
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 13.000</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card hovered-card">
+                  <a
+                    href="assets/img/sapu.jpg"
+                    data-lightbox="sapu-ijuk"
+                    data-title="sapu-ijuk"
+                  >
+                    <img
+                      src="assets/img/sapu.jpg"
+                      class="card-img-top"
+                      alt="..."
+                      style="height: 200px"
+                    />
+                  </a>
+                  <div class="card-body warna">
+                    <h5 class="card-title">Sapu Ijuk</h5>
+                    <p class="card-text">Sapu Ijuk Hitam Gagang Kayu Kumbo</p>
+                  </div>
+                  <div class="card-footer warna">
+                    <h5 class="fw-bold">Rp. 13.000</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end barang lainnya -->
+        </div>
+      </div>
+    </section>
+
+    <section id="konsultasi">
+      <div class="container-fluid pt-5 pb-5">
+        <div class="container text-center">
+          <h2 class="display-6 warna-judul fw-bold text-white">Konsultasi</h2>
+          <p class="fw-bold text-white kecil">
+            Jangan ragu jika ada pertanyaan untuk menghubungi kami melalui
+            WhatsApp.
+          </p>
+          <button
+            type="button"
+            class="btn mx-auto d-none d-md-block aktif btn-lg"
+            onclick="openWhatsApp()"
+          >
+            Hubungi Kami
+          </button>
+          <button
+            type="button"
+            class="btn d-block d-md-none aktif mx-auto"
+            onclick="openWhatsApp()"
+          >
+            Hubungi Kami
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontak">
+      <div class="container">
+        <div class="row pb-5">
+          <div class="col-12 text-center mb-1">
+            <h2 class="display-6 pt-5 warna-judul fw-bold">Kontak kami</h2>
+          </div>
+          <div class="col-12 col-md-12">
+            <div class="card shadow-lg">
+              <div class="row">
+                <div
+                  class="col-12 col-md-6"
+                  data-aos="zoom-out-right"
+                  data-aos-duration="1000"
+                >
+                  <img
+                    src="assets/img/bg-contact.jpg"
+                    class="img-fluid d-none d-md-block"
+                    alt=""
+                    width="550"
+                    height="600"
+                    style="border-radius: 15px"
+                  />
+                </div>
+
+                <div
+                  class="col-10 col-md-5 mx-auto"
+                  style="margin-top: 40px"
+                  data-aos="zoom-out-left"
+                  data-aos-duration="1000"
+                >
+                  <form action="https://formspree.io/f/mzbwaapn" method="POST">
+                    <div class="mb-3">
+                      <label for="name" class="form-label">Nama</label>
+                      <input
+                        type="text"
+                        name="name"
+                        class="form-control"
+                        id="nama"
+                        autocomplete="off"
+                        style="border: 1px solid black"
+                      />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="email" class="form-label">Email</label>
+                      <input
+                        type="email"
+                        name="email"
+                        class="form-control"
+                        id="email"
+                        autocomplete="off"
+                        style="border: 1px solid black"
+                      />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="kritik" class="form-label"
+                        >Kritik dan Saran</label
+                      >
+                      <textarea
+                        name="kritik"
+                        class="form-control"
+                        id="kritik"
+                        autocomplete="off"
+                        style="border: 1px solid black"
+                        cols="30"
+                        rows="8"
+                      ></textarea>
+                    </div>
+
+                    <div>
+                      <button
+                        type="submit"
+                        class="btn w-100 mb-5 text-white"
+                        style="background-color: #f58549"
+                      >
+                        Kirim
+                      </button>
+                    </div>
+                  </form>
+                </div>
+
+                <div class="col-12 mx-auto">
+                  <center>
+                    <h4 class="lokasikami">
+                      Lokasi Kami <i class="fa-solid fa-map-location-dot"></i>
+                    </h4>
+                  </center>
+
+                  <iframe
+                    data-aos="flip-up"
+                    data-aos-duration="1000"
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3965.312414954678!2d106.62903257499144!3d-6.35358709363635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMjEnMTIuOSJTIDEwNsKwMzcnNTMuOCJF!5e0!3m2!1sid!2sid!4v1711692234406!5m2!1sid!2sid"
+                    width="100%"
+                    height="450"
+                    style="border: 0; margin-bottom: 15px"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+
+              <!-- <iframe
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3965.312414954678!2d106.62903257499144!3d-6.35358709363635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMjEnMTIuOSJTIDEwNsKwMzcnNTMuOCJF!5e0!3m2!1sid!2sid!4v1711692234406!5m2!1sid!2sid"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer style="background-color: #f58549">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,160L40,170.7C80,181,160,203,240,218.7C320,235,400,245,480,229.3C560,213,640,171,720,165.3C800,160,880,192,960,208C1040,224,1120,224,1200,208C1280,192,1360,160,1400,144L1440,128L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
+        ></path>
+      </svg>
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 col-lg-6 mb-5 mb-lg-0 pb-3 pb-lg-5 pt-3 text-center text-lg-start text-md-start"
+            data-aos="fade-down-right"
+            data-aos-duration="1000"
+          >
+            <h4>Contact</h4>
+            <p>
+              <strong
+                ><i class="fa-solid fa-location-dot me-1"></i>Address :</strong
+              >
+              Griya Serpong, RT03/RW05 Suradita, Cisauk,Tangerang
+            </p>
+            <p>
+              <strong><i class="fa-solid fa-phone me-1"></i>Phone :</strong> +62
+              895-4145-87000/ (+62) 856-9168-7287
+            </p>
+            <p>
+              <strong><i class="fa-solid fa-clock me-1"></i>Jam :</strong> 08:00
+              - 20:00, Senin - Sabtu
+            </p>
+          </div>
+
+          <div
+            class="col-12 col-lg-3 mb-5 mb-lg-0 pb-3 pb-lg-5 pt-3 text-center text-lg-start text-md-start"
+            data-aos="flip-down"
+            data-aos-duration="1000"
+          >
+            <h4>About Us</h4>
+            <ul class="list-unstyled lh-lg">
+              <li>
+                <a href="#produk" class="text-body-secondary fw-medium"
+                  >Produk Kami</a
+                >
+              </li>
+              <li>
+                <a href="#keunggulan" class="text-body-secondary fw-medium"
+                  >Keunggulan Kami</a
+                >
+              </li>
+              <li>
+                <a href="#tentang-kami" class="text-body-secondary fw-medium"
+                  >Tentang Kami</a
+                >
+              </li>
+              <li>
+                <a href="#kontak" class="text-body-secondary fw-medium"
+                  >Contact Kami</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-12 col-lg-3 mb-5 mb-lg-0 pb-5 pt-3 text-center text-md-start"
+            data-aos="fade-down-left"
+            data-aos-duration="1000"
+          >
+            <h4>Follow Us</h4>
+            <div class="icon">
+              <a href="https://www.facebook.com/profile.php?id=61550574612298"
+                ><i class="mx-1 fas fa-brands fa-facebook fa-lg text-dark"></i
+              ></a>
+              <!-- <a href="#"><i class="mx-1 fas fa-brands fa-twitter fa-lg text-dark"></i></a> -->
+              <a
+                href="https://www.instagram.com/shzainaa88?igsh=YzljYTk1ODg3Zg=="
+                ><i class="mx-1 fas fa-brands fa-instagram fa-lg text-dark"></i
+              ></a>
+              <!-- <a href="#"><i class="mx-1 fas fa-brands fa-github fa-lg text-dark"></i></a> -->
+              <!-- <a href="#"><i class="mx-1 fas fa-brands fa-youtube fa-lg text-dark"></i></a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white py-3 text-center">
+        <span class="fw-bold"> &copy NadyaStore 2024 Web UMKM </span>
+      </div>
+    </footer>
+
+    <!-- cnd bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- cdn typed js -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- cdn JQUERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/dist/js/lightbox-plus-jquery.min.js"></script>
+    <!-- external main.js -->
+    <script src="assets/main.js"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

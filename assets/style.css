@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+#bottone1 {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  border-radius: 9px;
+  background: #f58549;
+  border: none;
+  font-size: 15px;
+  font-weight: 900;
+  color: white;
+  font-family: inherit;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+body,
+html {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "DM Sans", sans-serif;
+}
+
+#bottone1:hover {
+  box-shadow: 7px 5px 56px -14px #c3d900;
+}
+
+#jumbotron {
+  text-shadow: #000 1px 1px;
+}
+
+#jumbotron p {
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.bg-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("img/toko-bg.png");
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.2);
+}
+
+.warna {
+  color: #f58549;
+}
+
+#bg-orange {
+  background-color: #f58549;
+}
+
+.warna-judul {
+  color: #2d3a3a;
+}
+
+.aktif {
+  background-color: #f58549;
+  color: white;
+}
+
+.card {
+  transition: 0.4s;
+  box-shadow: -14px -3px 6px -14px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -14px -3px 6px -14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -14px -3px 6px -14px rgba(0, 0, 0, 0.75);
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+#tentang-kami {
+  margin-top: 74px;
+}
+
+.img-about {
+  height: 500px;
+  width: 500px;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.map {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.lokasikami {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.garis-two::before,
+.garis-two::after {
+  background-color: #f58549;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 23%;
+}
+
+.garis-two::before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.garis-two::after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.garis-three::before,
+.garis-three::after {
+  background-color: #f58549;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 37%;
+}
+
+.garis-three::before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.garis-three::after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#konsultasi {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("img/bg-coklat.jpg");
+  width: 100%;
+  height: 40vh;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+@media screen and (min-height: 576px) {
+  .kecil {
+    font-size: 14px;
+  }
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* Pastikan gambar tidak melebihi lebar layar */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin: 10px 5px;
+  }
+}
+
+iframe,
+video {
+  max-width: 100%;
+  height: auto;
+}
